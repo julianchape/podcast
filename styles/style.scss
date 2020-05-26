@@ -325,7 +325,7 @@ nav{
 
         /*COMIENZO DE SECTION NOVEDADES*/
         #novedades{
-            height:518px;
+            height:341px;
             grid-area:novedades;
             background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
@@ -540,6 +540,7 @@ nav{
         /*INICIO SECTION NOVEDADES*/
             #novedades{
                 clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+                height:518px;
                 h2{
                     font-size: 48px;
                 }
