@@ -4811,7 +4811,7 @@ body {
         color: #060A24; }
 
 /*INICIO MEDIA QUERIES*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   .boton {
     width: 226px;
     height: 56px;
