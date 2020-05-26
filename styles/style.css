@@ -4803,11 +4803,9 @@ body {
     body footer .brands {
       display: flex;
       flex-flow: row wrap;
-      margin: 16px 45px 31px 45px; }
-      body footer .brands i {
-        margin-right: 38px; }
-      body footer .brands:last-child {
-        margin-right: unset; }
+      justify-content: space-evenly;
+      margin: 16px 45px 31px 45px;
+      width: 300px; }
       body footer .brands a {
         text-decoration: none;
         color: #060A24; }
@@ -4955,11 +4953,12 @@ body {
         width: 345px; }
   body footer {
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline; }
     body footer p {
       font-size: 16px;
-      line-height: 28px; }
+      line-height: 28px;
+      margin-left: 100px; }
     body footer .brands i {
       font-size: 18px;
       line-height: 28px; } }
