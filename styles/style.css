@@ -4890,7 +4890,8 @@ body {
     /*FIN SECTION ENTREVISTAS*/
     /*INICIO SECTION TOPICOS*/
     /*FIN SECTION TOPICOS*/
-    /*INICIO SECTION NOVEDADES*/ }
+    /*INICIO SECTION NOVEDADES*/
+    /*FIN SECTION NOVEDADES*/ }
     body main #episodios {
       clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%); }
       body main #episodios h2 {
@@ -4951,6 +4952,16 @@ body {
       body main #novedades h2 {
         font-size: 48px; }
       body main #novedades .boton {
-        width: 345px; } }
+        width: 345px; }
+  body footer {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline; }
+    body footer p {
+      font-size: 16px;
+      line-height: 28px; }
+    body footer .brands i {
+      font-size: 18px;
+      line-height: 28px; } }
 
 /*# sourceMappingURL=style.css.map */
