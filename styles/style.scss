@@ -101,7 +101,7 @@ nav{
                 margin:16px 217px 24px 16px;
                 a{
                     font-family: 'IBM Plex Mono', monospace;
-                    font-weight: 400px;
+                    font-weight: 400;
                     font-size: 16px;
                     color: #FFFFFF;
                     letter-spacing: 0;
@@ -371,7 +371,14 @@ nav{
             flex-flow: row wrap;
             margin:16px 45px 31px 45px;
             i{
-                margin-left:38px;
+                margin-right:38px;
+            }
+            &:last-child{
+                margin-right: unset;
+            }
+            a{
+                text-decoration: none;
+                color: #060A24;
             }
         }
     }
@@ -386,6 +393,9 @@ nav{
         font-size: 18px;
         line-height: 24px;
 
+    }
+    .mobreak{
+        display:none;
     }
     body{
         nav{
@@ -439,9 +449,6 @@ nav{
                 font-size: 64px;
                 color: #060A24;
                 letter-spacing: 0;
-                #mobreak{
-                    display:none;
-                }
             }
             p{
                 font-family: 'IBM Plex Mono', monospace;
@@ -454,9 +461,6 @@ nav{
                     display:initial;
                 }
                 #mop{
-                    display:none;
-                }
-                #mobreak{
                     display:none;
                 }
                 #tecno{
@@ -508,9 +512,6 @@ nav{
                 .text{
                         h2{
                             font-size: 48px;
-                            #mobreak{
-                                display:none;
-                            }
                             
                         }
                         p{

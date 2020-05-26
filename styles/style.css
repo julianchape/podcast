@@ -4601,7 +4601,7 @@ body {
         margin: 16px 217px 24px 16px; }
         body nav ul li a {
           font-family: 'IBM Plex Mono', monospace;
-          font-weight: 400px;
+          font-weight: 400;
           font-size: 16px;
           color: #FFFFFF;
           letter-spacing: 0;
@@ -4805,7 +4805,12 @@ body {
       flex-flow: row wrap;
       margin: 16px 45px 31px 45px; }
       body footer .brands i {
-        margin-left: 38px; }
+        margin-right: 38px; }
+      body footer .brands:last-child {
+        margin-right: unset; }
+      body footer .brands a {
+        text-decoration: none;
+        color: #060A24; }
 
 /*INICIO MEDIA QUERIES*/
 @media screen and (min-width: 1000px) {
@@ -4814,6 +4819,9 @@ body {
     height: 56px;
     font-size: 18px;
     line-height: 24px; }
+
+  .mobreak {
+    display: none; }
 
   body nav {
     height: auto; }
@@ -4856,8 +4864,6 @@ body {
       font-size: 64px;
       color: #060A24;
       letter-spacing: 0; }
-      body header h1 #mobreak {
-        display: none; }
     body header p {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 16px;
@@ -4868,8 +4874,6 @@ body {
       body header p #dep {
         display: initial; }
       body header p #mop {
-        display: none; }
-      body header p #mobreak {
         display: none; }
       body header p #tecno {
         display: initial; }
@@ -4911,8 +4915,6 @@ body {
       display: unset; }
     body main #nosotros .text h2 {
       font-size: 48px; }
-      body main #nosotros .text h2 #mobreak {
-        display: none; }
     body main #nosotros .text p {
       width: 464px;
       height: 204px;
