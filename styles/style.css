@@ -4692,9 +4692,7 @@ body {
         justify-items: center;
         align-content: center; }
         body main #episodios .playercontainer iframe {
-          width: 298px;
-          margin-left: 11px;
-          margin-right: 11px; }
+          width: 90%; }
           body main #episodios .playercontainer iframe:last-child {
             margin-bottom: 143.5px; }
     body main #nosotros {
@@ -4925,7 +4923,9 @@ body {
       line-height: 24px;
       text-align: justify; }
     body main #entrevistas h2 {
-      font-size: 48px; }
+      font-size: 48px;
+      margin-left: 200px;
+      margin-bottom: 36px; }
     body main #entrevistas .imag {
       width: 100%;
       flex-flow: row wrap;
@@ -4944,10 +4944,8 @@ body {
       body main #topicos .temas {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-evenly;
-        width: 100%;
-        margin-top: 31px;
-        margin-bottom: 91px; }
+        justify-content: center;
+        width: 100%; }
         body main #topicos .temas figcaption {
           width: 220px; }
     body main #novedades {

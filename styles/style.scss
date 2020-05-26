@@ -213,15 +213,12 @@ nav{
                 align-content: center;
             
             iframe{
-                width:298px;
-                margin-left:11px;
-                margin-right:11px;
+                width:90%;
                 &:last-child{
                     margin-bottom:143.5px;
                 }
-            }
+            } 
         }
-        
         }
         /*FIN DE SECTION EPISODIOS*/
 
@@ -258,7 +255,7 @@ nav{
                 }
             }
 
-            }
+        }
         /*FIN DE SECTION NOSOTROS*/
 
         /*COMIENZO DE SECTION ENTREVISTAS*/
@@ -529,6 +526,8 @@ nav{
             #entrevistas{
                 h2{
                     font-size: 48px;
+                    margin-left:200px;
+                    margin-bottom:36px;
                 }
                 .imag{
                     width:100%;
@@ -556,10 +555,8 @@ nav{
                 .temas{
                     display:flex;
                     flex-flow: row nowrap;
-                    justify-content: space-evenly;
+                    justify-content: center;
                     width: 100%;
-                    margin-top:31px;
-                    margin-bottom: 91px;
                     figcaption{
                         width:220px;
                     }
