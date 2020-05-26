@@ -4907,24 +4907,27 @@ body {
         body main #episodios .playercontainer iframe {
           width: 100%;
           height: 100%; }
-    body main #nosotros img {
-      width: 457.6px;
-      transform: translateY(-167px);
-      margin: unset;
-      margin-left: 200px;
-      display: unset; }
-    body main #nosotros .text h2 {
-      font-size: 48px; }
-    body main #nosotros .text p {
-      width: 464px;
-      height: 204px;
-      margin-top: 16px;
-      font-family: 'IBM Plex Mono',monospace;
-      font-size: 16px;
-      color: #060A24;
-      letter-spacing: 0;
-      line-height: 24px;
-      text-align: justify; }
+    body main #nosotros {
+      justify-content: center;
+      align-items: center; }
+      body main #nosotros img {
+        width: 457.6px;
+        transform: translateY(-167px);
+        margin: unset; }
+      body main #nosotros .text {
+        transform: translateY(-190px); }
+        body main #nosotros .text h2 {
+          font-size: 48px; }
+        body main #nosotros .text p {
+          width: 464px;
+          height: 204px;
+          margin-top: 16px;
+          font-family: 'IBM Plex Mono',monospace;
+          font-size: 16px;
+          color: #060A24;
+          letter-spacing: 0;
+          line-height: 24px;
+          text-align: justify; }
     body main #entrevistas h2 {
       font-size: 48px;
       margin-left: 200px;

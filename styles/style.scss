@@ -497,15 +497,17 @@ nav{
 
         /*INICIO SECTION NOSOTROS*/
             #nosotros{
+                justify-content:center;
+                align-items: center;
                 img{
                     width:457.6px;
                     transform:translateY(-167px);
                     margin:unset;
-                    margin-left:200px;
-                    display:unset;
+
                     
                 }
                 .text{
+                    transform:translateY(-190px);
                         h2{
                             font-size: 48px;
                             
