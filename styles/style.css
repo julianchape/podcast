@@ -4651,6 +4651,8 @@ body {
         display: none; }
         body header p #tecno #dtbreak {
           display: none; }
+    body header .boton {
+      justify-self: center; }
   body main {
     grid-area: main;
     display: grid;
