@@ -169,7 +169,7 @@ nav{
     
         }
         .boton{
-            justify-self: center;
+            align-self: center;
         }
 
     }
@@ -448,7 +448,9 @@ nav{
                     }
                 }
             }
-            
+           .boton{
+               align-self: unset;
+           } 
         }
         main{
         /*INICIO SECTION EPISODIOS*/
