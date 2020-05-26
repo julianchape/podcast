@@ -358,6 +358,22 @@ nav{
         flex-flow:column wrap;
         justify-content: center;
         align-items:center;
+        p{
+            font-family: 'IBM Plex Mono',monospace;
+            font-size: 14px;
+            color: #060A24;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin-top: 24px;
+        }
+        .brands{
+            display:flex;
+            flex-flow: row wrap;
+            margin:16px 45px 31px 45px;
+            i{
+                margin-left:38px;
+            }
+        }
     }
 }
     
@@ -489,32 +505,34 @@ nav{
                     display:unset;
                     
                 }
-                h2{
-                    font-family: 'IBM Plex Sans',sans-serif;
-                    font-size: 48px;
-                    color: #060A24;
-                    letter-spacing: 0;
-                    #mobreak{
-                        display:none;
-                    }
-                    
-                }
-                p{
-                    width:464px;
-                    height:204px;
-                    margin-top:16px;
-                    font-family: 'IBM Plex Mono',monospace;
-                    font-size: 16px;
-                    color: #060A24;
-                    letter-spacing: 0;
-                    line-height: 24px;
-                    text-align: justify;
-                }
+                .text{
+                        h2{
+                            font-size: 48px;
+                            #mobreak{
+                                display:none;
+                            }
+                            
+                        }
+                        p{
+                            width:464px;
+                            height:204px;
+                            margin-top:16px;
+                            font-family: 'IBM Plex Mono',monospace;
+                            font-size: 16px;
+                            color: #060A24;
+                            letter-spacing: 0;
+                            line-height: 24px;
+                            text-align: justify;
+                        }
             }
+        }
         /*FIN SECTION NOSOTROS*/
 
         /*INICIO SECTION ENTREVISTAS*/
             #entrevistas{
+                h2{
+                    font-size: 48px;
+                }
                 .imag{
                     width:100%;
                     flex-flow:row wrap;
@@ -532,17 +550,15 @@ nav{
                 flex-flow:row wrap;
 
                 h2{
-                    font-family: 'IBM Plex Sans', sans-serif;
                     font-weight: 400;
                     font-size: 48px;
                     color: #060A24;
                     letter-spacing: 0;
                 }
                 .temas{
-
                     display:flex;
-                    flex-flow: row wrap;
-                    justify-content: center;
+                    flex-flow: row nowrap;
+                    justify-content: space-evenly;
                 }
             }
         /*FIN SECTION TOPICOS*/
@@ -550,7 +566,7 @@ nav{
         /*INICIO SECTION NOVEDADES*/
             #novedades{
                 clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
-                height:518px;
+                height:498px;
                 h2{
                     font-size: 48px;
                 }

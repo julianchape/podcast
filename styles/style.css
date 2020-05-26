@@ -4793,6 +4793,19 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center; }
+    body footer p {
+      font-family: 'IBM Plex Mono',monospace;
+      font-size: 14px;
+      color: #060A24;
+      letter-spacing: 0;
+      line-height: 22px;
+      margin-top: 24px; }
+    body footer .brands {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 16px 45px 31px 45px; }
+      body footer .brands i {
+        margin-left: 38px; }
 
 /*INICIO MEDIA QUERIES*/
 @media screen and (min-width: 1000px) {
@@ -4896,14 +4909,11 @@ body {
       margin: unset;
       margin-left: 200px;
       display: unset; }
-    body main #nosotros h2 {
-      font-family: 'IBM Plex Sans',sans-serif;
-      font-size: 48px;
-      color: #060A24;
-      letter-spacing: 0; }
-      body main #nosotros h2 #mobreak {
+    body main #nosotros .text h2 {
+      font-size: 48px; }
+      body main #nosotros .text h2 #mobreak {
         display: none; }
-    body main #nosotros p {
+    body main #nosotros .text p {
       width: 464px;
       height: 204px;
       margin-top: 16px;
@@ -4913,6 +4923,8 @@ body {
       letter-spacing: 0;
       line-height: 24px;
       text-align: justify; }
+    body main #entrevistas h2 {
+      font-size: 48px; }
     body main #entrevistas .imag {
       width: 100%;
       flex-flow: row wrap;
@@ -4923,18 +4935,17 @@ body {
       display: flex;
       flex-flow: row wrap; }
       body main #topicos h2 {
-        font-family: 'IBM Plex Sans', sans-serif;
         font-weight: 400;
         font-size: 48px;
         color: #060A24;
         letter-spacing: 0; }
       body main #topicos .temas {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center; }
+        flex-flow: row nowrap;
+        justify-content: space-evenly; }
     body main #novedades {
       clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
-      height: 518px; }
+      height: 498px; }
       body main #novedades h2 {
         font-size: 48px; }
       body main #novedades .boton {
