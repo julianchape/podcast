@@ -4939,11 +4939,16 @@ body {
         font-weight: 400;
         font-size: 48px;
         color: #060A24;
-        letter-spacing: 0; }
+        letter-spacing: 0;
+        margin-left: 200px; }
       body main #topicos .temas {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-evenly; }
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 31px 200px 34px 200px; }
+        body main #topicos .temas figcaption {
+          width: 220px; }
     body main #novedades {
       clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
       height: 498px; }
