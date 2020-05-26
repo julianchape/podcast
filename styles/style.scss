@@ -12,6 +12,22 @@ html{
     padding: 0;
     border: 0;
 }
+.boton{
+    font-family: 'IBM Plex Mono',monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    width:288px;
+    height:48px;
+    margin:20px 16px 24px 16px;
+    background: #00F3BB;
+    &:hover{
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+}
 
 body{
     display:grid;
@@ -152,22 +168,7 @@ nav{
             }
     
         }
-        button{
-            font-family: 'IBM Plex Mono',monospace;
-            font-weight: 500;
-            font-size: 18px;
-            color: #060A24;
-            letter-spacing: 0;
-            text-align: center;
-            line-height: 24px;
-            width:288px;
-            height:48px;
-            margin:20px 16px 24px 16px;
-            background: #00F3BB;
-            &:hover{
-                background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-            }
-        }
+
     }
     /*FIN DE HEADER*/
     /*COMIENZO DE MAIN*/
@@ -220,6 +221,7 @@ nav{
         
         }
         /*FIN DE SECTION EPISODIOS*/
+
         /*COMIENZO DE SECTION NOSOTROS*/
         #nosotros{
             display:flex;
@@ -253,6 +255,7 @@ nav{
 
             }
         /*FIN DE SECTION NOSOTROS*/
+
         /*COMIENZO DE SECTION ENTREVISTAS*/
         #entrevistas{
             grid-area:entrevistas;
@@ -279,13 +282,90 @@ nav{
             
 
         }
+        /*FIN DE SECTION ENTREVISTAS*/
 
+        /*COMIENZO DE SECTION TOPICOS*/
+        #topicos{
+            grid-area:temario;
+            h2{
+                font-family: 'IBM Plex Sans',sans-serif;
+                font-weight: 400;
+                font-size: 36px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 42px;
+                margin:48px 16px 16px 16px;
+            }
+            .temas{                
+                figure{
+                    display:flex;
+                    flex-flow:column wrap;
+                    align-items: center;
+                    img{
+                        width:104px;
+                        height:auto;
+                        margin-bottom:13px;
+                        &:first-child{
+                            margin-top:21px;
+                        }
+                    }
+                    figcaption{
+                        font-family: 'IBM Plex Sans', sans-serif;
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: #060A24;
+                        letter-spacing: 0;
+                        text-align: center;
+                        margin-bottom:36px;
+                    }
+                }
+            }
+        }
+        /*FIN DE SECTION TOPICOS*/
+
+        /*COMIENZO DE SECTION NOVEDADES*/
+        #novedades{
+            height:518px;
+            grid-area:novedades;
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
+            display:flex;
+            flex-flow:column wrap;
+            align-items: center;
+            justify-content: center;
+            h2{
+                font-family: 'IBM Plex Sans',sans-serif;
+                font-weight: 400;
+                font-size: 36px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 42px;
+                margin:64px 16px 16px 16px;
+        }
+        
+        }
+
+    }
+    footer{
+        grid-area:footer;
+        display:flex;
+        flex-flow:column wrap;
+        justify-content: center;
+        align-items:center;
     }
 }
     
 
 
 @media screen and (min-width:1000px){
+    .boton{
+        width:226px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 24px;
+
+    }
     body{
         nav{
             height:auto;
@@ -368,7 +448,7 @@ nav{
             
         }
         main{
-        //INICIO SECTION EPISODIOS
+        /*INICIO SECTION EPISODIOS*/
             #episodios{
                 clip-path:polygon(100% 0, 100% 85%, 0 100%, 0 15%);
                 h2{
@@ -390,8 +470,9 @@ nav{
 
             }
         }
-        //FIN SECTION EPISODIOS
-        //INICIO SECTION NOSOTROS
+        /*FIN SECTION EPISODIOS*/
+
+        /*INICIO SECTION NOSOTROS*/
             #nosotros{
                 img{
                     width:457.6px;
@@ -420,7 +501,9 @@ nav{
                     text-align: justify;
                 }
             }
-        //FIN SECTION NOSOTROS
+        /*FIN SECTION NOSOTROS*/
+
+        /*INICIO SECTION ENTREVISTAS*/
             #entrevistas{
                 .imag{
                     width:100%;
@@ -431,7 +514,42 @@ nav{
                     }
                 }
             }
+        /*FIN SECTION ENTREVISTAS*/
 
+        /*INICIO SECTION TOPICOS*/
+            #topicos{
+                display:flex;
+                flex-flow:row wrap;
+
+                h2{
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 48px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                }
+                .temas{
+
+                    display:flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                }
+            }
+        /*FIN SECTION TOPICOS*/
+
+        /*INICIO SECTION NOVEDADES*/
+            #novedades{
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+                h2{
+                    font-size: 48px;
+                }
+                .boton{
+                    width:345px;
+
+                }
+                
+            }
+               
             }
         }   
     }
