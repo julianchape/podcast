@@ -233,6 +233,8 @@ nav{
             img{
                 width:320px;
                 transform:translateY(-100px);
+                display:block;
+                margin:auto;
             }
             .text{
                 transform:translateY(-73px);
@@ -359,7 +361,7 @@ nav{
     }
 }
     
-
+/*INICIO MEDIA QUERIES*/
 
 @media screen and (min-width:1000px){
     .boton{
@@ -482,7 +484,10 @@ nav{
                 img{
                     width:457.6px;
                     transform:translateY(-167px);
+                    margin:unset;
                     margin-left:200px;
+                    display:unset;
+                    
                 }
                 h2{
                     font-family: 'IBM Plex Sans',sans-serif;

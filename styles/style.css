@@ -4703,7 +4703,9 @@ body {
       z-index: 2; }
       body main #nosotros img {
         width: 320px;
-        transform: translateY(-100px); }
+        transform: translateY(-100px);
+        display: block;
+        margin: auto; }
       body main #nosotros .text {
         transform: translateY(-73px); }
         body main #nosotros .text h2 {
@@ -4792,6 +4794,7 @@ body {
     justify-content: center;
     align-items: center; }
 
+/*INICIO MEDIA QUERIES*/
 @media screen and (min-width: 1000px) {
   .boton {
     width: 226px;
@@ -4890,7 +4893,9 @@ body {
     body main #nosotros img {
       width: 457.6px;
       transform: translateY(-167px);
-      margin-left: 200px; }
+      margin: unset;
+      margin-left: 200px;
+      display: unset; }
     body main #nosotros h2 {
       font-family: 'IBM Plex Sans',sans-serif;
       font-size: 48px;
