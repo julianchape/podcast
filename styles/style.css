@@ -4541,7 +4541,8 @@ html {
   text-decoration: none;
   color: #060A24; }
   .boton:hover {
-    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); }
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF; }
 
 body {
   display: grid;
@@ -4825,7 +4826,8 @@ body {
   body nav {
     height: auto; }
     body nav img {
-      margin-left: 100px; }
+      margin-left: 100px;
+      width: 36px; }
     body nav .hamburguesa {
       margin-right: 100px; }
     body nav input {
